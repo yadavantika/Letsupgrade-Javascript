@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang= "en-Us">
+	<head>
+	    <meta charset="UTF-8">
+		<title>Question3</title>
+	</head>
+	<body>
+	   <h1>question 3</h1>
+    <script>
+	 let array=[
+	     {
+	         name:"antika",
+	         age:28,
+	         country:"india",
+	         hobbies:["cooking","singing","dancing"]
+	     },
+	     {
+	         name:"dhanu",
+	         age:36,
+	         country:"USA",
+	         hobbies:["skating"]
+	     },
+	     {
+	         name:"maya",
+	         age:25,
+	         country:"japan",
+	         hobbies:["reading","tennis"]
+	     },
+	     {
+	         name:"emir",
+	         age:22,
+	         country:"turkey",
+	         hobbies:["photography","basketball"]
+	     }
+	    ]
+	     function displayArray(){
+	         array.forEach(function(ele){
+	             console.log(ele);
+	         });
+	     }
+	     displayArray();
+	        function Displayage(){
+	          array.forEach(function(ele){
+	              if(ele.age<30)
+	              console.log(ele);
+	          });  
+	  
+	     }
+	     
+         console.log("the following has age<30");
+	     Displayage();
+	     
+	     function Displaycountry(){
+	          array.forEach(function(ele){
+	              if(ele.country=="india")
+	              console.log(ele);
+	          });  
+	  
+	     }
+	     
+console.log("country is india");
+	     Displaycountry();
+    
+	
+    
+	</script>
+	</body>
+</html>

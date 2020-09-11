@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang= "en-Us">
+	<head>
+	    <meta charset="UTF-8">
+		<title>Question2</title>
+	</head>
+	<body>
+	    <label>Enter input:</label>
+	    <input type="text" id="input" placeholder="enter name">
+	    <br><button onclick="getinput()">click me</button>
+	    <br>
+	    <input type="text" id="output">
+    <script>
+	function getinput(){
+	    const input=document.getElementById("input")
+	    const output=document.getElementById("output")
+	    const temp=input.value
+	    output.value=temp
+	}
+    
+	</script>
+	</body>
+</html>
